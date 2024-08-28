@@ -87,6 +87,7 @@ def gnrtCharJson():
         11000043,
         11000044,
         11000045,
+        11000046,
     ]
     haveCostume = [list(i.values())[5] for i in AvatarCostumeRaw if i.get("itemId")]
     print(f"拥有时装角色列表: {haveCostume}")
