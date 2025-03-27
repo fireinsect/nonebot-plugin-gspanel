@@ -30,8 +30,8 @@ ReliquarySet = read("EquipAffixExcelConfigData.json")
 AvatarDetail = {i["Id"]: i for i in AvatarDetail}
 AvatarSkill = {i["ELKKIAIGOBK"]: i for i in AvatarSkillRaw}
 AvatarSkillDepot = {i["ELKKIAIGOBK"]: i for i in AvatarSkillDepotRaw}
-AvatarTalent = {i["talentId"]: i for i in AvatarTalentRaw}
-AvatarCostume = {i["itemId"]: i for i in AvatarCostumeRaw if i.get("itemId")}
+AvatarTalent = {i["JFALAEEKFMI"]: i for i in AvatarTalentRaw}
+AvatarCostume = {i["JIOHEGJODPF"]: i for i in AvatarCostumeRaw if i.get("JIOHEGJODPF")}
 
 OldCharData = read("../data/gspanel/char-data.json")
 OldCharAlias = read("../data/gspanel/char-alias.json")
