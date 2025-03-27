@@ -29,7 +29,7 @@ ReliquarySet = read("EquipAffixExcelConfigData.json")
 
 AvatarDetail = {i["Id"]: i for i in AvatarDetail}
 AvatarSkill = {i["ELKKIAIGOBK"]: i for i in AvatarSkillRaw}
-AvatarSkillDepot = {i["id"]: i for i in AvatarSkillDepotRaw}
+AvatarSkillDepot = {i["ELKKIAIGOBK"]: i for i in AvatarSkillDepotRaw}
 AvatarTalent = {i["talentId"]: i for i in AvatarTalentRaw}
 AvatarCostume = {i["itemId"]: i for i in AvatarCostumeRaw if i.get("itemId")}
 
